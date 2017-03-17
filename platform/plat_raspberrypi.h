@@ -64,9 +64,9 @@
 
 struct spi_rfm12_board_config board_configs[NUM_RFM12_BOARDS] = {
    {
-      .irq_pin      = 25, // gpio 25
-      .spi_bus      = 0,  // spi port on P1 header
-      .spi_cs       = 1   // CS 1
+      .irq_pin      = 25,    // gpio 25
+      .spi_bus      = 0,     // spi port on P1 header
+      .spi_cs       = SPI_CS // CS 1
    }
 };
 

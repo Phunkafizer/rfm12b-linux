@@ -61,7 +61,7 @@ struct spi_rfm12_board_config board_configs[NUM_RFM12_BOARDS] = {
 #else
       .spi_bus      = 1,   // spi port on beaglebone header
 #endif
-      .spi_cs         = 1      // CS 1
+      .spi_cs         = SPI_CS      // CS 1
    }
 };
 
